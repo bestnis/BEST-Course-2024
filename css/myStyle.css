@@ -7,14 +7,18 @@
     --blue: #1F456C;
     --yellow: #DBC88A;
 
-    --purple: #cc8400;
-    --purpleD1: #4b156a;
+    /* --purple: #cc8400; */
+    /* --purpleD1: #4b156a; */
+    --purple: #599FD6;
+    --purpleD1: #1D1A4D;
 
     --white: #CDC7D1;
 
     --gray: #1D1D1E;
     --grayL1: #282829;
     --grayL2: #313132;
+
+    --background: #1D1A4D;
 }
 
 *,
@@ -44,7 +48,8 @@ padding: 50px;
 html,
 body {
     font-family: 'Space Grotesk', sans-serif;
-    background: var(--gray);
+    background: var(--background);
+    /* background: var(--gray); */
     color: var(--white);
     scroll-behavior: smooth !important;
     width: 100%;
@@ -79,7 +84,8 @@ button:focus,
 
 /*NAVIGATION*/
 .navbar {
-    background: var(--gray);
+    /* background: var(--gray); */
+    background: var(--background);
     opacity: 1;
     box-shadow: 1px 1px 1px 1px var(--purple);
     min-height: min-content;
@@ -157,7 +163,8 @@ button:focus,
 
 /*HEADER*/
 header {
-    background: linear-gradient(25deg, var(--gray), var(--grayL));
+    /* background: linear-gradient(25deg, var(--gray), var(--grayL)); */
+    background: linear-gradient(25deg, var(--background), var(--grayL));
     min-height: 110vh;
 }
 
@@ -230,6 +237,18 @@ h2 {
     position: relative !important;
     width: 100%;
 }
+
+#dynamicElement #floatingMascot {
+    position: absolute;
+    animation: ease-in-out floating 3s infinite;
+}
+
+#floatingMascot {
+    position: relative !important;
+    /* width: 100%; */
+    width: 700px;
+}
+
 .star{
     position: absolute;
     width: 5vw;
@@ -385,7 +404,8 @@ ostala dva u sekciji ce biti apsolutno pozicionirani
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(10deg, var(--gray), var(--purple));
+    /* background: linear-gradient(10deg, var(--gray), var(--purple)); */
+    background: linear-gradient(10deg, var(--background), var(--purple));
     opacity: 0.45;
     z-index: 1000;
     display: block;
