@@ -23,80 +23,80 @@ class Organiser {
 
 const organisers = [];
 if (fileName === "Organisers.html") {
-    organisers.push(new Organiser("Milica Đorđević", "Participants Responsible",
-        "mailto:milica.djordjevic@bestnis.rs",
-        "https://www.linkedin.com/in/milica-djordjevic-327468256/"
+    organisers.push(new Organiser("Jovan Manojlović", "Participants Responsible",
+        "mailto:jovan.manojlovic@bestnis.rs",
+        // "https://www.linkedin.com/in/milica-djordjevic-327468256/"
     ));
-    organisers.push(new Organiser("Maja Stanimirović", "Main Organiser",
-        "mailto:maja.stanimirovic@bestnis.rs",
+    organisers.push(new Organiser("Katarina Stojanović", "Main Organiser",
+        "mailto:k.stojanovic@bestnis.rs",
         "https://www.linkedin.com/in/maja-stanimirovi%C4%87-337601237/"
     ));
-    organisers.push(new Organiser("Vojin Đorđević", "IT & Logistics Responsible",
-        "mailto:vojin.djordjevic@bestnis.rs",
-        "https://www.linkedin.com/in/djordjevicv/"
+    organisers.push(new Organiser("Luka Kostadinović", "IT & Logistics Responsible",
+        "mailto:luka.kostadinovic@bestnis.rs",
+        "https://www.linkedin.com/in/luka-kostadinovic-3793a12b0/"
     ));
-    organisers.push(new Organiser("Aleksandar Jovanović", "Academia Responsible",
+    organisers.push(new Organiser("Petar Ristić", "Academia Responsible",
         "mailto:aleksandar.jovanovic@bestnis.rs",
         "https://www.linkedin.com/in/4aleksandar-jovanovic"
     ));
-    organisers.push(new Organiser("Petra Novaković", "Corporate relations Responsible",
-        "mailto:petra.novakovic@bestnis.rs",
-        "https://www.linkedin.com/in/petra-novakovi%C4%87-aaab13270"
+    organisers.push(new Organiser("Ilija Petrović", "Corporate relations Responsible",
+        "mailto:mailto:Ilija.Petrovic@bestnis.rs",
+        "https://www.linkedin.com/in/ilija-petrovi%C4%87-0b496a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
     ));
-    organisers.push(new Organiser("Jelena Stojanović", "Media Responsible",
-        "mailto:jelena.stojanovic@bestnis.rs",
-        "https://www.linkedin.com/in/jelena-stojanovi%C4%87/"
+    organisers.push(new Organiser("Emilija Petrović", "Media Responsible",
+        "mailto:mailto:emilija.petrovic@bestnis.rs",
+        "https://www.linkedin.com/in/emilija-petrovi%C4%87-0844621aa/"
     ));
-    organisers.push(new Organiser("Đorđe Veličković", "Socials Responsible",
-        "mailto:djordje.velickovic@bestnis.rs",
-        "https://www.linkedin.com/in/đorđe-veličković-b1762a276"
+    organisers.push(new Organiser("Jovana Mandić", "Socials Responsible",
+        "mailto:jovana.mandic@bestnis.rs",
+        "https://www.linkedin.com/in/jovana-mandi%C4%87-a463192b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
     ));
-    organisers.push(new Organiser("Nikola Stefanović", "Logistics Responsible",
-        "mailto:nikola.stefanovic@bestnis.rs",
-        "https://www.linkedin.com/in/nikola-stefanovic-3a9956227/"
+    organisers.push(new Organiser("Miloš Bojić", "Logistics Responsible",
+        "mailto:milos.bojic@bestnis.rs",
+        "https://www.linkedin.com/in/milo%C5%A1-boji%C4%87-8a8450272/"
     ));
-    organisers.push(new Organiser("Luka Petrović", "Design Responsible",
-        "mailto:luka.petrovic@bestnis.rs",
+    organisers.push(new Organiser("Katarina Totev Jović", "Design Responsible",
+        "mailto:katarina.totev@bestnis.rs",
         "https://www.linkedin.com/in/lukapetrovic2000/"
     ));
 }
 else {
-    organisers.push(new Organiser("Milica Đorđević", "Odgovorna za učesnike",
-        "mailto:milica.djordjevic@bestnis.rs",
+    organisers.push(new Organiser("Jovan Manojlović", "Odgovorna za učesnike",
+        "mailto:jovan.manojlovic@bestnis.rs",
         "https://www.linkedin.com/in/milica-djordjevic-327468256/"
     ));
-    organisers.push(new Organiser("Maja Stanimirović", "Glavni organizator",
-        "mailto:maja.stanimirovic@bestnis.rs",
+    organisers.push(new Organiser("Katarina Stojanović", "Glavni organizator",
+        "mailto:k.stojanovic@bestnis.rs",
         "https://www.linkedin.com/in/maja-stanimirovi%C4%87-337601237/"
     ));
-    organisers.push(new Organiser("Vojin Đorđević", "Odgovoran za informacione tehnologije i logistiku",
-        "mailto:vojin.djordjevic@bestnis.rs",
-        "https://www.linkedin.com/in/djordjevicv/"
+    organisers.push(new Organiser("Luka Kostadinović", "Odgovoran za informacione tehnologije",
+        "mailto:luka.kostadinovic@bestnis.rs",
+        "https://www.linkedin.com/in/luka-kostadinovic-3793a12b0/"
     ));
     
-    organisers.push(new Organiser("Aleksandar Jovanović", "Odgovoran za akademske aktivnosti",
+    organisers.push(new Organiser("Petar Ristić", "Odgovoran za akademske aktivnosti",
         "mailto:aleksandar.jovanovic@bestnis.rs",
         "https://www.linkedin.com/in/4aleksandar-jovanovic"
     ));
-    organisers.push(new Organiser("Petra Novaković", "Odgovorna za odnose sa kompanijama",
-        "mailto:petra.novakovic@bestnis.rs",
-        "https://www.linkedin.com/in/petra-novakovi%C4%87-aaab13270"
+    organisers.push(new Organiser("Ilija Petrović", "Odgovorna za odnose sa kompanijama",
+        "mailto:Ilija.Petrovic@bestnis.rs",
+        "https://www.linkedin.com/in/ilija-petrovi%C4%87-0b496a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
     ));
-    organisers.push(new Organiser("Jelena Stojanović", "Odgovorna za društvene medije",
-        "mailto:jelena.stojanovic@bestnis.rs",
-        "https://www.linkedin.com/in/jelena-stojanovi%C4%87/"
+    organisers.push(new Organiser("Emilija Petrović", "Odgovorna za društvene medije",
+        "mailto:emilija.petrovic@bestnis.rs",
+        "https://www.linkedin.com/in/emilija-petrovi%C4%87-0844621aa/"
     ));
-    organisers.push(new Organiser("Đorđe Veličković", "Odgovoran za društvene aktivnosti",
-        "mailto:djordje.velickovic@bestnis.rs",
-        "https://www.linkedin.com/in/đorđe-veličković-b1762a276"
+    organisers.push(new Organiser("Jovana Mandić", "Odgovoran za društvene aktivnosti",
+        "mailto:jovana.mandic@bestnis.rs",
+        "https://www.linkedin.com/in/jovana-mandi%C4%87-a463192b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
     ));
-    organisers.push(new Organiser("Nikola Stefanović", "Odgovoran za logistiku",
-        "mailto:nikola.stefanovic@bestnis.rs",
-        "https://www.linkedin.com/in/nikola-stefanovic-3a9956227/"
+    organisers.push(new Organiser("Miloš Bojić", "Odgovoran za logistiku",
+        "mailto:milos.bojic@bestnis.rs",
+        "https://www.linkedin.com/in/milo%C5%A1-boji%C4%87-8a8450272/"
     ));
-    organisers.push(new Organiser("Luka Petrović", "Odgovoran za dizajn",
-        "mailto:luka.petrovic@bestnis.rs",
-        "https://www.linkedin.com/in/lukapetrovic2000/"
+    organisers.push(new Organiser("Katarina Totev Jović", "Odgovoran za dizajn",
+        "mailto:katarina.totev@bestnis.rs",
+        // "https://www.linkedin.com/in/lukapetrovic2000/"
     ));
 }
 
