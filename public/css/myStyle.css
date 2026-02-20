@@ -245,8 +245,8 @@ h2 {
 
 #floatingMascot {
     position: relative !important;
-    /* width: 100%; */
-    width: 700px;
+    width: 100%;
+    /* width: 700px; */
 }
 
 .star{
